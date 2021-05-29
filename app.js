@@ -26,7 +26,7 @@ function genHTML(results) {
         <div class="item" >
             <img src="${result.recipe.image}">
             <div class="flex-container">
-                <h2 class="title">${result.recipe.label}</h2>
+                <h2 class="title">${result.recipe.label.slice(0, 25)}</h2>
                 <a href="${result.recipe.url}" target="_blank" class="btn btn-secondary">View Recipe</a>
             </div>
             <div class="status">
